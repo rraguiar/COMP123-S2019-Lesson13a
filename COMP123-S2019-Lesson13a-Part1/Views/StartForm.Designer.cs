@@ -1,6 +1,6 @@
-﻿namespace COMP123_S2019_Lesson13a_Part1
+﻿namespace COMP123_S2019_Lesson13a_Part1.Views
 {
-    partial class Form1
+    partial class StartForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.SuspendLayout();
+            // 
+            // StartForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
+            this.ClientSize = new System.Drawing.Size(778, 544);
+            this.Name = "StartForm";
+            this.Text = "Start Form";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
